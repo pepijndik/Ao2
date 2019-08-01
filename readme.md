@@ -1,4 +1,4 @@
-# Applicatie en media ontwikkelaar Leerjaar 1
+# Applicatie en media ontwikkelaar Leerjaar 2!
 
 alle opdrachten van Novacollege Ao2 Worden hier geuplaud.
 ![alt text](https://www.pdik.nl/portfolio/logopepijn.jpg)
