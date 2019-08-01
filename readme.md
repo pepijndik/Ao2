@@ -30,11 +30,11 @@ Je kunt ook lossen opdrachten downloaden.
 
 ## Made possible by:
 
-@pdik, @samir, @jay
+@pdik
 
 ### altijd up-to-date houden!
 
-Download altijd de nieuwste versie
+Zorg dat je Altijd de versie update elke dag/week word er niet materiaal geuplaud
 
 ## License
 
