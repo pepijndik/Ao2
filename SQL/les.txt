@@ -1,0 +1,12 @@
+1. Select naam,adres from klant
+2.Select woonplaats distinct SELECT DISTINCT woonplaats FROM `klant`
+3.SELECT sum(aantal_in_voorraad) from artikel
+4. SELECT sum(prijs)*artikel.aantal_in_voorraad from artikel
+5. SELECT * from artikel where artikel.prijs >="10"
+6. SELECT klant.naam from klant WHERE klant.woonplaats in("Amsterdam","Rotterdam")
+7. SELECT artikelnaam FROM artikel WHERE prijs <10 AND aantal_in_voorraad >15 
+8. SELECT klant.naam FROM klant WHERE NOT klant.woonplaats ="Amsterdam"
+9. SELECT artikel.artikelnaam  from artikel where artikel.prijs BETWEEN 10 and 20
+10. SELECt klant.naam from klant ORDER BY klant.naam ASC;
+11. SELECt klant.woonplaats from klant ORDER BY klant.woonplaats DESC;
+12. SELECT orders.ordernummer from orders where orders.orderdatum <= "2014-11-05"
