@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{84C61DE3-7B72-46E0-A4EB-173D3021C96C}</ProjectGuid>
+    <ProjectGuid>{A6270838-9A39-46D3-96C6-3E58565E81CC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>tekenen2</RootNamespace>
-    <AssemblyName>tekenen2</AssemblyName>
+    <RootNamespace>tekenen3</RootNamespace>
+    <AssemblyName>tekenen3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

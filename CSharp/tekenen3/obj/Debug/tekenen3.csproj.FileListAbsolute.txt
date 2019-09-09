@@ -1,0 +1,10 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\bin\Debug\tekenen3.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\bin\Debug\tekenen3.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\bin\Debug\tekenen3.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\obj\Debug\tekenen3.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\obj\Debug\tekenen3.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\obj\Debug\tekenen3.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\obj\Debug\tekenen3.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\obj\Debug\tekenen3.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\obj\Debug\tekenen3.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen3\obj\Debug\tekenen3.pdb

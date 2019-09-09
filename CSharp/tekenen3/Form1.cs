@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace tekenen2
+namespace tekenen3
 {
     public partial class Form1 : Form
     {
@@ -19,16 +19,23 @@ namespace tekenen2
 
         private void Panel1_Paint(object sender, PaintEventArgs e)
         {
+        }
+
+        private void Btndraw_Click(object sender, EventArgs e)
+        {
+            panel1.Refresh();
+
+            int straal = int.Parse(txtStaal.Text);
+            Pen pen = new Pen(Color.Red);
+            SolidBrush sldBrush1 = new SolidBrush(Color.Red);
             Graphics g = panel1.CreateGraphics();
+            g.DrawEllipse(pen, 0, 0, straal, straal);
 
-            //onderkant huis
-            SolidBrush sb_groen = new SolidBrush(Color.Green);
-            g.FillRectangle(sb_groen,15,55,50,50);
+        }
 
-            //Boven kant
-            SolidBrush sb_blauw = new SolidBrush(Color.Blue);
-            Point[] points = { new Point(40, 15), new Point(0, 60), new Point(80, 60) };
-            g.FillPolygon(sb_blauw, points);
+        private void TxtStaal_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
