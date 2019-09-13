@@ -10,3 +10,50 @@
 10. SELECt klant.naam from klant ORDER BY klant.naam ASC;
 11. SELECt klant.woonplaats from klant ORDER BY klant.woonplaats DESC;
 12. SELECT orders.ordernummer from orders where orders.orderdatum <= "2014-11-05"
+
+13.	De namen van de klanten, waarin de letters ‘dam’ een onderdeel zijn van de woonplaats.
+SELECT naam, woonplaats FROM `klant` WHERE woonplaats LIKE "%dam%";
+14.	De namen van de artikelen oplopend gesorteerd naar hun prijs.
+SELECT artikelnaam, prijs FROM `artikel` GROUP BY prijs ASC;
+15.	De namen van de klanten aflopend gesorteerd naar hun naam.
+SELECT naam FROM klant GROUP BY naam DESC;
+16.	Het aantal klanten per woonplaats.
+SELECT COUNT(woonplaats) FROM `klant`
+17.	De hoogste artikelprijs
+SELECT MAX(prijs) FROM `artikel`
+18.	De gemiddelde artikelprijs.
+SELECT AVG(prijs) FROM `artikel
+
+Los de  opdrachten  19 tot en met 22 op mbv een subquery.
+19.	De artikelnamen waarvan de prijs hoger is dat 20 euro. 
+SELECT artikelnaam, prijs FROM `artikel` WHERE prijs >20
+20.	De namen van de klanten die een artikel besteld hebben voor na 1 november 2014.
+SELECT naam, orders.orderdatum FROM klant,orders WHERE orders.orderdatum IN (SELECT orders.orderdatum FROM orders WHERE orders.orderdatum > "2014-11-04")
+21.	De namen van de klanten die een artikel besteld hebben waarvan de voorraad groter is dan 10 stuks.
+SELECT naam, artikel.aantal_in_voorraad FROM klant,artikel WHERE artikel.aantal_in_voorraad IN (SELECT artikel.aantal_in_voorraad FROM artikel WHERE artikel.aantal_in_voorraad >10)
+22.	De namen en adressen van de klanten die nog niet betaald hebben.
+SELECT naam, orders.betaald FROM klant,orders WHERE orders.betaald IN (SELECT orders.betaald FROM orders WHERE orders.betaald = 0)
+23.	De namen van klanten die in Amsterdam, Rotterdam, of Hoofddorp wonen.
+SELECT naam,woonplaats FROM `klant` WHERE woonplaats = "Amsterdam" OR woonplaats = "Rotterdam" OR woonplaats ="Hoofddorp"
+24.	Het aantal artikelen waarvan de voorraad minder dan 5 is.
+SELECT artikelnaam, aantal_in_voorraad FROM artikel WHERE aantal_in_voorraad <5
+
+Voorbeeld van een INNER JOIN
+
+ 
+
+25.	Geef de klantnummers en ordernummers.
+SELECT DISTINCT klant.klantnummer,orders.ordernummer FROM `klant` INNER JOIN orders ON klant.klantnummer=klant.klantnummer ORDER BY klant.klantnummer
+
+SELECT klant.klantnummer,orders.ordernummer FROM klant,orders WHERE orders.ordernummer
+26.	De namen van de klanten die een order hebben besteld.
+SELECT DISTINCT klant.naam, orderregel.aantal FROM `klant` INNER JOIN orderregel ON klant.naam=klant.naam ORDER BY klant.naam
+27.	De namen van de klanten die na 5 november 2014 een order hebben geplaatst.
+SELECT DISTINCT klant.naam,orders.orderdatum FROM `klant` INNER JOIN orders ON klant.naam=klant.naam WHERE orders.orderdatum > "2014-11-4"
+28.	 Het aantal orders, die betaald is. (Gebruik de count functie)
+SELECT DISTINCT orderregel.aantal, COUNT(orders.betaald) FROM orderregel INNER JOIN orders ON orderregel.aantal= orderregel.aantal GROUP BY orderregel.aantal
+29.	De namen van de klanten die hun bestellingen betaald hebben
+SELECT DISTINCT klant.naam,orders.betaald FROM `klant` INNER JOIN orders ON klant.naam=klant.naam WHERE orders.betaald = 1
+
+30.	Artikelnamen en de aantallen die besteld zijn.
+SELECT DISTINCT artikel.artikelnaam, orderregel.aantal FROM artikel INNER JOIN orderregel ON artikel.artikelnaam=artikel.artikelnaam GROUP BY artikel.artikelnaam
