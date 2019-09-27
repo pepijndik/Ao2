@@ -1,0 +1,6 @@
+35 CREATE VIEW top_drie AS  SELECT artikelen from 
+36
+37
+38
+39
+40
