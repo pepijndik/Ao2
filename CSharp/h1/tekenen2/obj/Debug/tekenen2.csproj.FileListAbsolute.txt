@@ -8,3 +8,13 @@ C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen2\obj\Debug\tekenen2.csproj.Gen
 C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen2\obj\Debug\tekenen2.csproj.CoreCompileInputs.cache
 C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen2\obj\Debug\tekenen2.exe
 C:\Users\pepij\OneDrive\github\ao2\CSharp\tekenen2\obj\Debug\tekenen2.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\bin\Debug\tekenen2.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\bin\Debug\tekenen2.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\bin\Debug\tekenen2.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\obj\Debug\tekenen2.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\obj\Debug\tekenen2.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\obj\Debug\tekenen2.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\obj\Debug\tekenen2.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\obj\Debug\tekenen2.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\obj\Debug\tekenen2.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h1\tekenen2\obj\Debug\tekenen2.pdb
