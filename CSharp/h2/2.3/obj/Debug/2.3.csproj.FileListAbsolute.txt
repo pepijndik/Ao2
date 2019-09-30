@@ -1,0 +1,10 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\bin\Debug\2.3.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\bin\Debug\2.3.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\bin\Debug\2.3.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\obj\Debug\2.3.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\obj\Debug\_2._3.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\obj\Debug\_2._3.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\obj\Debug\2.3.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\obj\Debug\2.3.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\obj\Debug\2.3.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\2.3\obj\Debug\2.3.pdb
