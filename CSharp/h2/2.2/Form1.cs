@@ -16,5 +16,19 @@ namespace _2._2
         {
             InitializeComponent();
         }
+
+      
+        private void BtnMAKE_Click(object sender, EventArgs e)
+        {
+            int getal2 = int.Parse(txtbox1.Text);
+            Random toeval = new Random();
+            
+
+            for(int i = 0; i < getal2; i++)
+            {
+                int getal = toeval.Next(1, getal2);
+                lstBox.Items.Add(getal);
+            }
+        }
     }
 }
