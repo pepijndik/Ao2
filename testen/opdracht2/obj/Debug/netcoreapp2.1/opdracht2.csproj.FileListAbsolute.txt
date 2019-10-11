@@ -1,0 +1,3 @@
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht2\obj\Debug\netcoreapp2.1\opdracht2.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht2\obj\Debug\netcoreapp2.1\opdracht2.AssemblyInfoInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht2\obj\Debug\netcoreapp2.1\opdracht2.AssemblyInfo.cs
