@@ -1,0 +1,10 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\bin\Debug\tussentoets.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\bin\Debug\tussentoets.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\bin\Debug\tussentoets.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\obj\Debug\tussentoets.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\obj\Debug\tussentoets.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\obj\Debug\tussentoets.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\obj\Debug\tussentoets.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\obj\Debug\tussentoets.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\obj\Debug\tussentoets.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\tussentoets\obj\Debug\tussentoets.pdb
