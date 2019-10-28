@@ -1,0 +1,11 @@
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\bin\Debug\netcoreapp2.1\opdracht3.deps.json
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\bin\Debug\netcoreapp2.1\opdracht3.runtimeconfig.json
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\bin\Debug\netcoreapp2.1\opdracht3.runtimeconfig.dev.json
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\bin\Debug\netcoreapp2.1\opdracht3.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\bin\Debug\netcoreapp2.1\opdracht3.pdb
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\obj\Debug\netcoreapp2.1\opdracht3.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\obj\Debug\netcoreapp2.1\opdracht3.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\obj\Debug\netcoreapp2.1\opdracht3.AssemblyInfoInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\obj\Debug\netcoreapp2.1\opdracht3.AssemblyInfo.cs
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\obj\Debug\netcoreapp2.1\opdracht3.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\opdracht3\obj\Debug\netcoreapp2.1\opdracht3.pdb

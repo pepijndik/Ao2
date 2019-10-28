@@ -1,0 +1,10 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\bin\Debug\IngebouwdeFunctieSplit.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\bin\Debug\IngebouwdeFunctieSplit.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\bin\Debug\IngebouwdeFunctieSplit.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\obj\Debug\IngebouwdeFunctieSplit.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\obj\Debug\IngebouwdeFunctieSplit.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\obj\Debug\IngebouwdeFunctieSplit.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\obj\Debug\IngebouwdeFunctieSplit.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\obj\Debug\IngebouwdeFunctieSplit.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\obj\Debug\IngebouwdeFunctieSplit.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\IngebouwdeFunctieSplit\obj\Debug\IngebouwdeFunctieSplit.pdb

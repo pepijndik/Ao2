@@ -1,0 +1,10 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\bin\Debug\opdracht5.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\bin\Debug\opdracht5.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\bin\Debug\opdracht5.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\obj\Debug\opdracht5.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\obj\Debug\opdracht5.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\obj\Debug\opdracht5.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\obj\Debug\opdracht5.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\obj\Debug\opdracht5.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\obj\Debug\opdracht5.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\opdracht5\obj\Debug\opdracht5.pdb
