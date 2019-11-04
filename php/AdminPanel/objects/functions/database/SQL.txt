@@ -1,0 +1,274 @@
+--
+-- Database: `simpelshop`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `facturen`
+--
+
+CREATE TABLE `facturen`
+(
+  `factuurnummer` int
+(11) NOT NULL,
+  `klantnummer` int
+(11) NOT NULL,
+  `factuurdatum` date NOT NULL,
+  `betaald` varchar
+(25) DEFAULT NULL COMMENT 'ja of nee'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden ingevoegd voor tabel `facturen`
+--
+
+INSERT INTO `facturen` (`
+factuurnummer`,
+`klantnummer
+`, `factuurdatum`, `betaald`) VALUES
+(10, 101, '2019-10-28', 'nee');
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `factuurregels`
+--
+
+CREATE TABLE `factuurregels`
+(
+  `factuurnummer` int
+(11) NOT NULL,
+  `artiekel_id` int
+(11) NOT NULL,
+  `aantal` int
+(11) NOT NULL
+)
+
+--
+-- Gegevens worden Toegevoegd voor tabel `factuurregels`
+--
+
+INSERT INTO `factuurregels` (`
+factuurnummer`,
+`artiekel_id
+`, `aantal`) VALUES
+(10, 1, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `klant`
+--
+
+CREATE TABLE `klant`
+(
+  `klantnummer` int
+(11) NOT NULL,
+  `naam` varchar
+(20) NOT NULL,
+  `adres` varchar
+(25) NOT NULL,
+  `postcode` varchar
+(7) NOT NULL,
+  `woonplaats` varchar
+(25) NOT NULL,
+  `email` varchar
+(25) NOT NULL,
+  `aantal_orders` int
+(55) NOT NULL
+)
+
+--
+-- Gegevens worden toegevoegd voor tabel `klant`
+--
+
+INSERT INTO `klant` (`
+klantnummer`,
+`naam
+`, `adres`, `postcode`, `woonplaats`, `email`, `aantal_orders`) VALUES
+(101, 'M. dikki', 'Joepie straat', '2245 ac', 'Amsterdam', 'J.Albema@Ziggo.nl', 0),
+(102, 'K. Balema', 'Lindengracht 33', '1082 KL', 'Amsterdam', 'KBaal@hotmail.com', 4),
+(103, 'P. de Vries', 'Kasteel 5', '3872 LM', 'Alkmaar', 'PdeVries@hotmail.com', 2),
+(104, 'P. Haarlem', 'Amsterdamse weg 107', '3038 DF', 'Haarlem', 'PHaarlem@gmail.com', 8),
+(105, 'L. Halsema', 'Boerenlaan 77', '3974 PK', 'Groningen', 'Superman@hotmail.com', 11),
+(106, 'V. Groothoofd', 'Jan de Bouvierstraat 21', '8564 LP', 'Amstelveen', 'Grootkop@gmail.com', 2),
+(107, 'L. Bartels', 'Veenwegen 974', '2963 KL', 'Hoofddorp', 'Bartel@gmail.com', 6),
+(108, 'P. de Jong', 'Amstelkade 64', '1957 ED', 'Rotterdam', 'P.deJong@hotmail.com', 3),
+(109, 'K. Vrolijk', 'Parkstraat 54', '4045 MN', 'Rotterdam', 'Vrolijkjoch@gmail.com', 17),
+(110, 'L. Vroom', 'Kerkstraat 9', '2046 LK', 'Haarlem ', 'VroomL@gmail.com', 32),
+(111, 'K. Klein', 'Gartmanplantsoen 4', '1087 AQ', 'Amsterdam', 'Klein@kpn.com', 32),
+(112, 'L.Ravenstein', 'Keienstraat 9', '4837 LM', 'Rotterdam', 'Ravenstein@dat.com', 22),
+(113, 'M. Rood', 'Kleurenplantsoen 2', '5463 FS', 'Nieuw Vennep', 'Rood@hotmail.com', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `producten`
+--
+
+CREATE TABLE `producten`
+(
+  `artiekel_id` int
+(55) NOT NULL,
+  `title` varchar
+(50) NOT NULL,
+  `beschrijving` varchar
+(255) NOT NULL,
+  `prijs_incl` int
+(25) NOT NULL,
+  `prijs_exl` int
+(25) NOT NULL,
+  `type` varchar
+(50) NOT NULL,
+  `aantal_verkocht` int
+(255) DEFAULT NULL COMMENT 'aantal keer verkocht',
+  `product_image` varchar
+(30) DEFAULT NULL,
+  `leverancier` varchar
+(60) DEFAULT NULL,
+  `conditie` varchar
+(25) NOT NULL
+)
+
+--
+-- Gegevens worden toegevoegd voor tabel `producten`
+--
+
+INSERT INTO `producten` (`
+artiekel_id`,
+`title
+`, `beschrijving`, `prijs_incl`, `prijs_exl`, `type`, `aantal_verkocht`, `product_image`, `leverancier`, `conditie`) VALUES
+(1, 'gtx 1080', 'hoi', 100, 220, 'Videokaart', 0, 'gtx1050.png', '', 'Nieuw'),
+(2, 'Acer moederbord', 'test', 90, 150, 'moederbord', NULL, NULL, NULL, 'nieuw');
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `werknemers`
+--
+
+CREATE TABLE `werknemers`
+(
+  `id` int
+(11) NOT NULL,
+  `roepnaam` varchar
+(30) NOT NULL,
+  `tussenvoegsel` varchar
+(15) DEFAULT NULL,
+  `achternaam` varchar
+(35) NOT NULL,
+  `indienst` date NOT NULL,
+  `plaatsnaam` varchar
+(255) NOT NULL,
+  `bankrekening` varchar
+(70) NOT NULL,
+  `wachtwoord` varchar
+(255) NOT NULL
+)
+--
+-- Gegevens worden toegevoegd voor tabel `werknemers`
+--
+
+INSERT INTO `werknemers` (`
+id`,
+`roepnaam
+`, `tussenvoegsel`, `achternaam`, `indienst`, `plaatsnaam`, `bankrekening`, `wachtwoord`) VALUES
+(2, 'pepijn', '', 'dik', '2019-10-01', 'voorhout', 'NL1612', '0c36948d4a0ffc05ddc7b9f2f7918cbd');
+
+--
+-- Indexen voor toevoegen aan tabellen
+--
+
+--
+-- Indexen voor tabel `facturen`
+--
+ALTER TABLE `facturen`
+ADD PRIMARY KEY
+(`factuurnummer`),
+ADD KEY `klantnummer`
+(`klantnummer`);
+
+--
+-- Indexen voor tabel `factuurregels`
+--
+ALTER TABLE `factuurregels`
+ADD KEY `artiekelnummer`
+(`artiekel_id`),
+ADD KEY `factuurnummer`
+(`factuurnummer`);
+
+--
+-- Indexen voor tabel `klant`
+--
+ALTER TABLE `klant`
+ADD PRIMARY KEY
+(`klantnummer`);
+
+--
+-- Indexen voor tabel `producten`
+--
+ALTER TABLE `producten`
+ADD PRIMARY KEY
+(`artiekel_id`),
+ADD KEY `artiekel_id`
+(`artiekel_id`);
+
+--
+-- Indexen voor tabel `werknemers`
+--
+ALTER TABLE `werknemers`
+ADD PRIMARY KEY
+(`id`);
+
+--
+-- AUTO_INCREMENT voor tabellen
+--
+
+--
+-- AUTO_INCREMENT voor een tabel `facturen`
+--
+ALTER TABLE `facturen`
+  MODIFY `factuurnummer` int
+(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+--
+-- AUTO_INCREMENT voor een tabel `klant`
+--
+ALTER TABLE `klant`
+  MODIFY `klantnummer` int
+(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
+--
+-- AUTO_INCREMENT voor een tabel `producten`
+--
+ALTER TABLE `producten`
+  MODIFY `artiekel_id` int
+(55) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT voor een tabel `werknemers`
+--
+ALTER TABLE `werknemers`
+  MODIFY `id` int
+(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- Beperkingen voor geëxporteerde tabellen
+--
+
+--
+-- Beperkingen voor tabel `facturen`
+--
+ALTER TABLE `facturen`
+ADD CONSTRAINT `facturen_ibfk_1` FOREIGN KEY
+(`klantnummer`) REFERENCES `klant`
+(`klantnummer`);
+
+--
+-- Beperkingen voor tabel `factuurregels`
+--
+ALTER TABLE `factuurregels`
+ADD CONSTRAINT `factuurregels_ibfk_1` FOREIGN KEY
+(`factuurnummer`) REFERENCES `facturen`
+(`factuurnummer`),
+ADD CONSTRAINT `factuurregels_ibfk_2` FOREIGN KEY
+(`artiekel_id`) REFERENCES `producten`
+(`artiekel_id`);
+
