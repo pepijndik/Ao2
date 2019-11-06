@@ -18,6 +18,11 @@ $result = mysqli_query($con, $sql);
         <div class="btn-toolbar mb-2 mb-md-0">
             <h1 class="h2">Klanten van Simpel Shop</h1>
         </div>
+        <div>
+            <form action="addcustomer.php" method="POST">
+                <button type="submit" class="btn btn-secondary">Nieuw</button>
+            </form>
+        </div>
     </div>
     <table class="table table-striped table-sm">
         <thead>

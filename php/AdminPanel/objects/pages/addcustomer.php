@@ -50,13 +50,13 @@ include('header.php');
         <div class="form-group col-md-3">
 
             <label class="btn btn-danger">
-                <input type="radio" name="betaald" value="nee" <?php echo ($betaald == 'nee') ? 'checked="checked"' : ''; ?> />Niet betaald</button>
+                <input type="radio" name="betaald" value="nee">Niet betaald</button>
             </label>
             <label class="btn btn-success">
-                <input type="radio" name="betaald" value="ja" <?php echo ($betaald == 'ja') ? 'checked="checked"' : ''; ?> />Betaald</button>
+                <input type="radio" name="betaald" value="ja" />Betaald</button>
             </label>
         </div>
-        <button type="submit" name="update" class="btn btn-primary">Verander Klant</button>
+        <button type="submit" name="add" class="btn btn-primary">Voeg klant toe</button>
         </div>
 
     </form>
@@ -68,12 +68,11 @@ include('header.php');
 if (isset($_POST['add'])) {
     $klantnaam = $_POST['klantnaam'];
     $email = $_POST['email'];
-    $klantnummer = $_POST['klantnummer'];
     $adres = $_POST['adres'];
     $plaatsnaam =  $_POST['plaatsnaam'];
     $postcode = $_POST['postcode'];
 
-    $sql2 = "INSERT INTO `klant`";
+    $sql2 = "INSERT INTO `klant`(`naam`, `adres`, `postcode`, `woonplaats`, `email`, `aantal_orders`) VALUES ('$klantnaam','$adres','$postcode','$plaatsnaam','$email','$aantalorders')";
     $updateResult = mysqli_query($con, $sql2);
     if ($updateResult) {
         echo "Klant Toegevoegd";

@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Lijstvannamen\bin\Debug\Lijstvannamen.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Lijstvannamen\bin\Debug\Lijstvannamen.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Lijstvannamen\bin\Debug\Lijstvannamen.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Lijstvannamen\obj\Debug\Lijstvannamen.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Lijstvannamen\obj\Debug\Lijstvannamen.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Lijstvannamen\obj\Debug\Lijstvannamen.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Lijstvannamen\obj\Debug\Lijstvannamen.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Lijstvannamen\obj\Debug\Lijstvannamen.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Lijstvannamen\obj\Debug\Lijstvannamen.pdb

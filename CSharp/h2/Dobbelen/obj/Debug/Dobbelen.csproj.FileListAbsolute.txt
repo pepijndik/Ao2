@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Dobbelen\bin\Debug\Dobbelen.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Dobbelen\bin\Debug\Dobbelen.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Dobbelen\bin\Debug\Dobbelen.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Dobbelen\obj\Debug\Dobbelen.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Dobbelen\obj\Debug\Dobbelen.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Dobbelen\obj\Debug\Dobbelen.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Dobbelen\obj\Debug\Dobbelen.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Dobbelen\obj\Debug\Dobbelen.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Dobbelen\obj\Debug\Dobbelen.pdb

@@ -1,7 +1,19 @@
 <?php
 require('../../objects/config.php');
-require('../../objects/checks/auth.php');
-$klant_id = $_POST['klantnummer'];
+//require('../../objects/checks/auth.php');
+
+if (isset($_POST['klantnummer'])) {
+    $klant_id = $_POST['klantnummer'];
+} else {
+    $klant_id = $_GET['klantnummer'];
+}
+
+if (isset($_GET['klantnummer'])) {
+    $klant_id = $_GET['klantnummer'];
+} else {
+    $klant_id = $_POST['klantnummer'];
+}
+
 $sql = "SELECT * FROM facturen RIGHT join klant
 ON klant.klantnummer = facturen.klantnummer where klant.klantnummer='$klant_id'";
 $result = mysqli_query($con, $sql);

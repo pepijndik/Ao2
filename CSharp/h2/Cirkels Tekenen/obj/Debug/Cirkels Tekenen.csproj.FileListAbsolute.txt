@@ -1,0 +1,10 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\bin\Debug\Cirkels Tekenen.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\bin\Debug\Cirkels Tekenen.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\bin\Debug\Cirkels Tekenen.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\obj\Debug\Cirkels Tekenen.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\obj\Debug\Cirkels_Tekenen.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\obj\Debug\Cirkels_Tekenen.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\obj\Debug\Cirkels Tekenen.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\obj\Debug\Cirkels Tekenen.csproj.CoreCompileInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\obj\Debug\Cirkels Tekenen.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\h2\Cirkels Tekenen\obj\Debug\Cirkels Tekenen.pdb
