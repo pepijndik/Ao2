@@ -1,0 +1,9 @@
+C:\Users\pepij\source\repos\Db_1\bin\Debug\Db_1.exe.config
+C:\Users\pepij\source\repos\Db_1\bin\Debug\Db_1.exe
+C:\Users\pepij\source\repos\Db_1\bin\Debug\Db_1.pdb
+C:\Users\pepij\source\repos\Db_1\obj\Debug\Db_1.csprojAssemblyReference.cache
+C:\Users\pepij\source\repos\Db_1\obj\Debug\Db_1.Form1.resources
+C:\Users\pepij\source\repos\Db_1\obj\Debug\Db_1.Properties.Resources.resources
+C:\Users\pepij\source\repos\Db_1\obj\Debug\Db_1.csproj.GenerateResource.cache
+C:\Users\pepij\source\repos\Db_1\obj\Debug\Db_1.exe
+C:\Users\pepij\source\repos\Db_1\obj\Debug\Db_1.pdb
