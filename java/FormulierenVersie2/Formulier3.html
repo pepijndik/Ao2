@@ -1,0 +1,24 @@
+<html> 
+	<head> 
+	
+	<script type="text/javascript"> 
+	
+	function test() 
+	{ 
+	var invoer = Number(document.testinvoer.invoer.value);
+	var uitkomst = invoer*invoer;
+	document.getElementById("uitvoer").innerHTML=uitkomst;
+
+	} 
+	</script>
+	
+	</head> 
+<body> 
+	<h1>Formulier 3</h1>
+	<form name="testinvoer"> 
+	<p id="uitvoer"></p>
+	<input type="text" name="invoer" size="25"><br/>	
+	<input type="button" value="OK" onClick="test()">
+	</form> 
+</body> 
+</html>
