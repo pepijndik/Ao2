@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>1 array</p>
+
+    <p id="demo"></p>
+    <p>2de array</p>
+    <p id="demo2"></p>
+    <p id="totaal"></p>
+    <script>
+      var banaan = new Array(
+        12.3,
+        10.1,
+        14.1,
+        16.3,
+        14.5,
+        16.3,
+        18.7,
+        13.8,
+        17.4,
+        11.1
+      );
+      var totaal = 0;
+      for (var i = 0; i < banaan.length; i++) {
+        totaal += banaan[i];
+        document.getElementById("totaal").innerHTML = totaal.toString();
+      }
+      var gem = totaal / banaan.length;
+
+      banaan.forEach(print);
+      document.getElementById("totaal").innerHTML += "<br>Gem =" + gem;
+      function print(item) {
+        document.getElementById("demo").innerHTML += "Lengte " + item + "<br>";
+      }
+
+      var banaan2 = new Array(
+        new Array(12.3, 99),
+        new Array(10.1, 80),
+        new Array(14.1, 121),
+        new Array(16.3, 140),
+        new Array(14.5, 131),
+        new Array(16.3, 138),
+        new Array(18.7, 144),
+        new Array(13.8, 120),
+        new Array(17.4, 152),
+        new Array(11.1, 84)
+      );
+
+      for (let i = 0; i < banaan2.length; i++) {
+        let childArray = banaan2[i];
+
+        for (let j = 0; j < childArray.length; j++) {
+          document.getElementById("demo2").innerHTML +=
+            "" + childArray[j] + " ";
+        }
+      }
+    </script>
+  </body>
+</html>
