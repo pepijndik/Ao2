@@ -39,8 +39,27 @@ namespace _1._2
             }
             txtaantal.Text = "Totaal aantal recepten: "+ count.ToString();
 
-            dbread.Close();
-            con.Close();
+        
+        }
+
+        //Delete Row form db 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string selected = listBox1.GetItemText(listBox1.SelectedItem);
+
+            OleDbConnection con2 = new OleDbConnection();
+            con2.ConnectionString = "provider = Microsoft.ACE.OLEDB.12.0;" + "Data Source = ..\\..\\Recepten.accdb;" +
+          "Persist Security Info = False;";
+            con2.Open();
+            string query = "DELETE FROM Recept WHERE Naam recept = '"+selected+"' ";
+
+            OleDbCommand comm2 = new OleDbCommand(query, con2);
+            comm2.ExecuteNonQuery();
+            comm2.Dispose();
+            con2.Close();
+          
+
         }
     }
+
 }
