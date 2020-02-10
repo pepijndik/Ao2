@@ -1,3 +1,15 @@
+  opdracht 1
+  A wacht tot dat het document geladen is
+  
+  opdracht 2
+  $(document).ready(function(){
+  $("button").mouseover(function(){
+    $("button").css("background-color", "yellow");
+  });
+  $("button").mouseout(function(){
+    $("button").css("background-color", "lightgray");
+  });
+});
+
   var invoer = document.forminvoer2.invoer3.value;
    document.getElementById("totaal").innerHTML = totaal.toString();
-   
