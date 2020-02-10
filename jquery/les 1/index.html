@@ -1,13 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Opdracht 1</title>
+    <style>
+      button {
+        display: block;
+        font-size: 12px;
+        width: 100px;
+      }
+      div {
+        float: left;
+        margin: 10px;
+        font-size: 10px;
+        border: 1px solid black;
+      }
+      span {
+        color: blue;
+        font-size: 18px;
+      }
+      #inner {
+        color: red;
+      }
+      td {
+        width: 50px;
+        text-align: center;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <p>Top 5 programmeer talen op het nova college</p>
+    <table>
+      <tr>
+        <td>PHP</td>
+      </tr>
+      <tr>
+        <td>C#</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+      </tr>
+      <tr>
+        <td>Jquery</td>
+      </tr>
+    </table>
+
+    <button value=":even">Gelijk waardig</button>
+    <button value=":odd">Oneven</button>
+  </body>
 </html>
 
 <script>
-  $(document).ready(function() {});
+  $(document).ready(function() {
+    $("button").click(function() {
+      var str = $(this).val();
+      $("tr").css("background", "white");
+      $("tr" + str).css("background", "#ff0000");
+      $("#inner").text(str);
+    });
+  });
 </script>

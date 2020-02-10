@@ -1,0 +1,3 @@
+  var invoer = document.forminvoer2.invoer3.value;
+   document.getElementById("totaal").innerHTML = totaal.toString();
+   
