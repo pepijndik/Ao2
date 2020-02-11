@@ -1,13 +1,37 @@
   opdracht 1
   A wacht tot dat het document geladen is
-  
+  B maak een animatie
+  c 
+
+
   opdracht 2
   $(document).ready(function(){
-  $("button").mouseover(function(){
-    $("button").css("background-color", "yellow");
+  $(".button1").mouseover(function(){
+    $(".button1").css("background-color", "yellow");
   });
-  $("button").mouseout(function(){
-    $("button").css("background-color", "lightgray");
+  $(".button1").mouseout(function(){
+    $(".button1").css("background-color", "lightgray");
+  });
+
+    $(".button2").mouseover(function(){
+    $(".button2").css("background-color", "yellow");
+  });
+  $(".button2").mouseout(function(){
+    $(".button2").css("background-color", "lightgray");
+  });
+
+    $(".button3").mouseover(function(){
+    $(".button3").css("background-color", "yellow");
+  });
+  $(".button3").mouseout(function(){
+    $(".button3").css("background-color", "lightgray");
+  });
+
+    $(".button4").mouseover(function(){
+    $(".button4").css("background-color", "yellow");
+  });
+  $(".button4").mouseout(function(){
+    $(".button4").css("background-color", "lightgray");
   });
 });
 
