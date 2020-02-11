@@ -1,6 +1,12 @@
 function uitvoer() {
   var invoer = document.testinvoer.invoer.value;
-  var f = 1.8 * invoer + 32;
+  if (invoer == "") {
+    var invoer2 = document.testinvoer.invoer2.value;
+    var f = 1.8 * invoer2 + 32;
+  } else {
+    var f = 1.8 * invoer + 32;
+  }
+
   alert(f);
 }
 function opdracht3() {
