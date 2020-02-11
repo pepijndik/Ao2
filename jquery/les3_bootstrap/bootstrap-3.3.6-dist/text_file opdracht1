@@ -1,0 +1,19 @@
+Deze links:
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  Grid indeling 
+
+  Jumbottron is de functie van de header class
+
+  Met float word de pagina breder waardoor er kleiner
+
+  Row md -4 
+  betekend 
+  tabel rij middel breedte 4 
+
+voor de footer is er gebruik gemaakt van navbar class 
+
+opdracht 2
+
