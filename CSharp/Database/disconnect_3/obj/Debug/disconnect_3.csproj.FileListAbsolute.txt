@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\disconnect_3\bin\Debug\disconnect_3.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\disconnect_3\bin\Debug\disconnect_3.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\disconnect_3\bin\Debug\disconnect_3.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\disconnect_3\obj\Debug\disconnect_3.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\disconnect_3\obj\Debug\disconnect_3.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\disconnect_3\obj\Debug\disconnect_3.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\disconnect_3\obj\Debug\disconnect_3.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\disconnect_3\obj\Debug\disconnect_3.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\disconnect_3\obj\Debug\disconnect_3.pdb
