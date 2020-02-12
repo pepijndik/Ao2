@@ -80,7 +80,7 @@ namespace _2._1
             String Postcode = txtPostcode.Text;
             String woonplaats = txtWoonplaats.Text;
             String telefoon = txtTelefoon.Text;
-            String sql = "INSERT INTO klanten (Voorletters,Tussenvoegsel,Achternaam,straat,Huisnummer,Toevoeging huisnummer,Postcode,Woonplaats,telfoon) VALUES('" + voornaam + "','" + tussenvoeg + "','" + achternaam + "','" + Straat + "','" + Huisnummer + "','" + Postcode + "','" + woonplaats + "','" + telefoon + "')";
+            String sql = "INSERT INTO Klanten (Voorletters,Tussenvoegsel,Achternaam,straat,Huisnummer,Toevoeging huisnummer,Postcode,Woonplaats,telfoon) VALUES('" + voornaam + "','" + tussenvoeg + "','" + achternaam + "','" + Straat + "','" + Huisnummer + "','" +Toevoeging+ "','" + Postcode + "','" + woonplaats + "','" + telefoon + "')";
 
             OleDbCommand comm = new OleDbCommand(sql, con);
             comm.ExecuteNonQuery();
