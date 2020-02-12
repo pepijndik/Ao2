@@ -1,0 +1,13 @@
+2A
+php artisan make:model artikel -m 
+
+2b) Op welke locatie is het model opgeslagen? Heet het bestand nog artikel of heeft het een andere naam? 
+database/migrations/2020_02_12_090852_create_artikels_table
+word een letters S standaard aan toegevoegg en de datum
+2c) Voeg de volgende gegevens toe aan het aangemaakte model:
+Zie 2020_02_12_090852_create_artikels_table;
+
+2D
+php artisan migration
+
+3
