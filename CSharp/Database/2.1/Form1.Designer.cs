@@ -51,6 +51,7 @@
             this.lst_load = new System.Windows.Forms.ListBox();
             this.Verander = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCheck = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -154,6 +155,7 @@
             // 
             this.txtAchternaam.Location = new System.Drawing.Point(142, 106);
             this.txtAchternaam.Name = "txtAchternaam";
+            this.txtAchternaam.ReadOnly = true;
             this.txtAchternaam.Size = new System.Drawing.Size(100, 22);
             this.txtAchternaam.TabIndex = 11;
             // 
@@ -231,6 +233,7 @@
             this.Verander.TabIndex = 20;
             this.Verander.Text = "Verander";
             this.Verander.UseVisualStyleBackColor = true;
+            this.Verander.Click += new System.EventHandler(this.Verander_Click);
             // 
             // groupBox1
             // 
@@ -261,11 +264,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Invoer";
             // 
+            // btnCheck
+            // 
+            this.btnCheck.Location = new System.Drawing.Point(480, 384);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(75, 23);
+            this.btnCheck.TabIndex = 21;
+            this.btnCheck.Text = "bekijk";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1132, 650);
+            this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lst_load);
             this.Name = "Form1";
@@ -302,6 +316,7 @@
         private System.Windows.Forms.Button Verander;
         private System.Windows.Forms.ListBox lst_load;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnCheck;
     }
 }
 
