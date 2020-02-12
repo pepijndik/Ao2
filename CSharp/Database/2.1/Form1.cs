@@ -16,6 +16,15 @@ namespace _2._1
         public Form1()
         {
             InitializeComponent();
+            load();
+          
+            
+            
+        }
+
+        public void load()
+        {
+            lst_load.Items.Clear();
             OleDbConnection con1 = new OleDbConnection();
             con1.ConnectionString = "provider = Microsoft.ACE.OLEDB.12.0;" + "Data Source = ..\\..\\Bruinsma.accdb;" +
             "Persist Security Info = False;";
@@ -37,9 +46,6 @@ namespace _2._1
             }
             dbread.Close();
             con1.Close();
-          
-            
-            
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -70,7 +76,7 @@ namespace _2._1
             comm.ExecuteNonQuery();
             comm.Dispose();
             con1.Close();
-            
+            load();
 
         }
 
@@ -90,18 +96,20 @@ namespace _2._1
             "Persist Security Info = False;";
             con1.Open();
 
-            String query = "UPDATE Klanten SET Voorletters = '"+voornaam+"', Tussenvoegsel = '"+tussenvoeg+ "',Achternaam='"+achternaam+ "' ,Straat='" + Straat + "',Huisnummer='" + Huisnummer + "',[Toevoeging huisnummer]='" + Toevoeging + "',Postcode='" + Postcode  + "',Woonplaats='" + woonplaats + "',Telefoon='" + telefoon +" WHERE condition; ";
+            String query = "UPDATE Klanten SET Voorletters = '"+voornaam+"', Tussenvoegsel = '"+tussenvoeg+ "',Achternaam='"+achternaam+ "' ,Straat='" + Straat + "',Huisnummer='" + Huisnummer + "',[Toevoeging huisnummer]='" + Toevoeging + "',Postcode='" + Postcode  + "',Woonplaats='" + woonplaats + "',Telefoon='" + telefoon + "' WHERE achternaam='"+achternaam+"' ";
             OleDbCommand comm = new OleDbCommand(query, con1);
             comm.ExecuteNonQuery();
             comm.Dispose();
             con1.Close();
+            load();
         }
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
 
             string selected_item = lst_load.GetItemText(lst_load.SelectedItem);
-            string voorletters = selected_item.Substring(0, 2);
+            string voorletters = selected_item.Substring(0, 4);
+            txtvoornaam.Text = voorletters;
             OleDbConnection con2 = new OleDbConnection();
             con2.ConnectionString = "provider = Microsoft.ACE.OLEDB.12.0;" + "Data Source = ..\\..\\Bruinsma.accdb;" +
           "Persist Security Info = False;";
