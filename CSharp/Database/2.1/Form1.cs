@@ -37,6 +37,25 @@ namespace _2._1
             }
             dbread.Close();
             con1.Close();
+
+            if (lst_load.SelectedIndex > -1)
+            {
+                string selected_item = lst_load.GetItemText(lst_load.SelectedItem);
+                OleDbConnection con2 = new OleDbConnection();
+                con2.ConnectionString = "provider = Microsoft.ACE.OLEDB.12.0;" + "Data Source = ..\\..\\Recepten.accdb;" +
+              "Persist Security Info = False;";
+                con2.Open();
+                string query2 = "Select * FROM Klanten WHERE Voorletters ='" + selected_item + "'";
+                txtvoornaam.Text = "";
+                txtAchternaam.Text = "";
+                txtTussenvoegsel.Text = "";
+                txtStraat.Text = "";
+                txtHuisnummer.Text = "";
+                txtTvHuis.Text = "";
+                txtPostcode.Text = "";
+                txtWoonplaats.Text = "";
+                txtTelefoon.Text = "";
+            }
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -64,7 +83,10 @@ namespace _2._1
             String sql = "INSERT INTO klanten (Voorletters,Tussenvoegsel,Achternaam,straat,Huisnummer,Toevoeging huisnummer,Postcode,Woonplaats,telfoon) VALUES('" + voornaam + "','" + tussenvoeg + "','" + achternaam + "','" + Straat + "','" + Huisnummer + "','" + Postcode + "','" + woonplaats + "','" + telefoon + "')";
 
             OleDbCommand comm = new OleDbCommand(sql, con);
-            this.Close();
+            comm.ExecuteNonQuery();
+            comm.Dispose();
+            con.Close();
+            
 
         }
 
