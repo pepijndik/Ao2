@@ -11,3 +11,4 @@ Zie 2020_02_12_090852_create_artikels_table;
 php artisan migration
 
 3
+Bekijk boeken tabel;
