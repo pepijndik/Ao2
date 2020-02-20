@@ -1,0 +1,12 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\bin\Debug\Uitleensysteem.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\bin\Debug\Uitleensysteem.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\bin\Debug\Uitleensysteem.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\bin\Debug\MySql.Data.dll
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\bin\Debug\MySql.Data.xml
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\obj\Debug\Uitleensysteem.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\obj\Debug\Uitleensysteem.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\obj\Debug\Uitleensysteem.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\obj\Debug\Uitleensysteem.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\obj\Debug\Uitleensysteem.csproj.CopyComplete
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\obj\Debug\Uitleensysteem.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Uitleensysteem\obj\Debug\Uitleensysteem.pdb
