@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\loginsysteem\bin\Debug\loginsysteem.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\loginsysteem\bin\Debug\loginsysteem.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\loginsysteem\bin\Debug\loginsysteem.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\loginsysteem\obj\Debug\loginsysteem.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\loginsysteem\obj\Debug\loginsysteem.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\loginsysteem\obj\Debug\loginsysteem.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\loginsysteem\obj\Debug\loginsysteem.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\loginsysteem\obj\Debug\loginsysteem.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\loginsysteem\obj\Debug\loginsysteem.pdb
