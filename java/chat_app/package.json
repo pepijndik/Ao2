@@ -1,0 +1,27 @@
+{
+  "name": "pep_chat",
+  "version": "1.0.0",
+  "description": "Web based chat application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepijndik/pep_chat.git"
+  },
+  "keywords": [
+    "webchat"
+  ],
+  "author": "pdik systems",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pepijndik/pep_chat/issues"
+  },
+  "homepage": "https://github.com/pepijndik/pep_chat#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0"
+  }
+}
