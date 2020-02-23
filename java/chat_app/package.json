@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/pepijndik/pep_chat#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
     "mysql": "^2.18.1",
     "socket.io": "^2.3.0"
-  }
+  },
+  "devDependencies": {}
 }
