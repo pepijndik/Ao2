@@ -1,361 +1,55 @@
-var mysql = require("mysql");
-var express = require("express");
-var session = require("express-session");
-var bodyParser = require("body-parser");
-var path = require("path");
-var nunjucks = require("nunjucks");
-var nodemailer = require("nodemailer");
-var uuidv1 = require("uuid/v1");
-var crypto = require("crypto");
-var cookieParser = require("cookie-parser");
-const http = require("http").Server(app);
-const io = require("socket.io")(http);
-var secret_key = "your secret key";
+/**
+* Real Time chatting app
+* @author Shashank Tiwari
+*/
+'use strict';
 
-// Update the below details with your own MySQL connection details
-var connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "pdik"
-});
+const express = require("express");
+const http = require('http');
+const socketio = require('socket.io');
+const bodyParser = require('body-parser');
 
-var app = express();
+const socketEvents = require('./utils/socket'); 
+const routes = require('./utils/routes'); 
+const config = require('./utils/config'); 
 
-nunjucks.configure("views", {
-  autoescape: true,
-  express: app
-});
 
-app.use(
-  session({
-    secret: secret_key,
-    resave: true,
-    saveUninitialized: true
-  })
-);
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, "static")));
-app.use(cookieParser());
+class Server{
 
-// Email activation required?
-var account_activation_required = false;
+    constructor(){
+        this.port =  process.env.PORT || 3000;
+        this.host = `localhost`;
+        
+        this.app = express();
+        this.http = http.Server(this.app);
+        this.socket = socketio(this.http);
+    }
 
-app.get("/", function(request, response) {
-  response.render("index.html");
-});
-
-app.post("/", function(request, response) {
-  // Create variables with the post data
-  var username = request.body.username;
-  var password = request.body.password;
-  var hashed_password = crypto
-    .createHash("sha1")
-    .update(request.body.password)
-    .digest("hex");
-  // check if the data exists and is not empty
-  if (username && password) {
-    // Select the account from the accounts table
-    connection.query(
-      "SELECT * FROM accounts WHERE username = ? AND password = ?",
-      [username, hashed_password],
-      function(error, results, fields) {
-        if (results.length > 0) {
-          // Account exists (username and password match)
-          // Create session variables
-          request.session.loggedin = true;
-          request.session.username = username;
-          if (request.body.rememberme) {
-            // Create cookie hash, will be used to check if user is logged in
-            var hash = crypto
-              .createHash("sha1")
-              .update(username + password + secret_key)
-              .digest("hex");
-            // Num days until the cookie expires (user will log out)
-            var days = 90;
-            response.cookie("rememberme", hash, {
-              maxAge: 1000 * 60 * 60 * 24 * days,
-              httpOnly: true
-            });
-            connection.query(
-              "UPDATE accounts SET rememberme = ? WHERE username = ?",
-              [hash, username]
-            );
-          }
-          // Redirect to home page
-          response.send("Success");
-          response.end();
-        } else {
-          response.send("Incorrect Username and/or Password!");
-          response.end();
-        }
-      }
-    );
-  } else {
-    response.send("Please enter Username and Password!");
-    response.end();
-  }
-});
-
-app.get("/register", function(request, response) {
-  response.render("/index.html");
-});
-
-app.post("/register", function(request, response) {
-  // Create variables and set to the post data
-  var username = request.body.username;
-  var password = request.body.password;
-  var hashed_password = crypto
-    .createHash("sha1")
-    .update(request.body.password)
-    .digest("hex");
-  var email = request.body.email;
-  // Check if the post data exists and not empty
-  if (username && password && email) {
-    // Check if account exists already in the accounts table, checks for username but you could change this to email etc
-    connection.query(
-      "SELECT * FROM accounts WHERE username = ?",
-      [username],
-      function(error, results, fields) {
-        if (results.length > 0) {
-          response.send("Dit account bestaat al");
-          response.end();
-        } else if (!/\S+@\S+\.\S+/.test(email)) {
-          // Make sure email is valid
-          response.send("Invalid email address!");
-          response.end();
-        } else if (!/[A-Za-z0-9]+/.test(username)) {
-          // Username validation, must be numbers and characters
-          response.send(
-            "Gebruikers naam mag enkel nummers en characters bevatten!"
-          );
-          response.end();
-        } else if (account_activation_required) {
-          // Change the username and passowrd below to your email and pass, the current mail host is set to gmail but you can change that if you want.
-          var transporter = nodemailer.createTransport({
-            host: "smtp.transip.email",
-            port: 465,
-            secure: true,
-            auth: {
-              user: "info@pdik.nl",
-              pass: ""
-            }
-          });
-          // Generate a random unique ID
-          var activation_code = uuidv1();
-          // Change the below domain to your domain
-          var activate_link =
-            "http://localhost:3000/activate/" + email + "/" + activation_code;
-          // Change the below mail options
-          var mailOptions = {
-            from: 'Pdik systems" <info@pdik.nl>',
-            to: email,
-            subject: "Activeer jouw account",
-            text: "Bezoek de link hieronder" + activate_link,
-            html:
-              '<p>Klink op de klink op jouw account te activeren en start met chatten!: <a href="' +
-              activate_link +
-              '">' +
-              activate_link +
-              "</a></p>"
-          };
-          // Insert account with activation code
-          connection.query(
-            'INSERT INTO accounts VALUES (NULL, ?, ?, ?, ?, "")',
-            [username, hashed_password, email, activation_code],
-            function(error, results, fields) {
-              transporter.sendMail(mailOptions, function(error, info) {
-                if (error) {
-                  return console.log(error);
-                }
-                console.log(
-                  "Message %s sent: %s",
-                  info.messageId,
-                  info.response
-                );
-              });
-              response.send(
-                "Je bent succesvol geregistreerd begin zo snel mogelijk met chatten!"
-              );
-              response.end();
-            }
-          );
-        } else {
-          // Insert account with no activation code
-          connection.query(
-            'INSERT INTO accounts VALUES (NULL, ?, ?, ?, "", "")',
-            [username, hashed_password, email],
-            function(error, results, fields) {
-              response.send(
-                "Succesvol geregistreerd Activeer jouw account zo snel mogelijk!"
-              );
-              response.end();
-            }
-          );
-        }
-      }
-    );
-  } else {
-    // Form is not complete...
-    response.send("Vul alle velden in!");
-    response.end();
-  }
-});
-
-app.get("/activate/:email/:code", function(request, response) {
-  // Check if the email and activation code match in the database
-  connection.query(
-    "SELECT * FROM accounts WHERE email = ? AND activation_code = ?",
-    [request.params.email, request.params.code],
-    function(error, results, fields) {
-      if (results.length > 0) {
-        // Email and activation exist, update the activation code to "activated"
-        connection.query(
-          'UPDATE accounts SET activation_code = "activated" WHERE email = ? AND activation_code = ?',
-          [request.params.email, request.params.code],
-          function(error, results, fields) {
-            response.send("Yess! jouw account is geactiveerd");
-            response.end();
-          }
+    appConfig(){        
+        this.app.use(
+            bodyParser.json()
         );
-      } else {
-        response.send("Incorrect email/activation code!");
-        response.end();
-      }
+        new config(this.app);
     }
-  );
-});
 
-app.get("/home", function(request, response) {
-  // Check if user is logged in
-  if (request.session.loggedin) {
-    // Render home page
-    response.render("home.html", { username: request.session.username });
-  } else if (request.cookies.rememberme) {
-    // if the remember me cookie exists check if an account has the same value in the database
-    connection.query(
-      "SELECT * FROM accounts WHERE rememberme = ?",
-      [request.cookies.rememberme],
-      function(error, results, fields) {
-        if (results.length > 0) {
-          // remember me cookie matches, keep the user loggedin and update session variables
-          request.session.loggedin = true;
-          request.session.username = results[0].username;
-
-          response.render("home.html", { username: results[0].username });
-        } else {
-          response.redirect("/");
-        }
-      }
-    );
-  } else {
-    // Redirect to login page
-    response.redirect("/");
-  }
-});
-
-app.get("/profile", function(request, response) {
-  // Check if user is logged in
-  if (request.session.loggedin) {
-    // Get all the users account details so we can display them on the profile page
-    connection.query(
-      "SELECT * FROM accounts WHERE username = ?",
-      [request.session.username],
-      function(error, results, fields) {
-        // Render profile page
-        response.render("profile.html", { account: results[0] });
-      }
-    );
-  } else {
-    // Redirect to login page
-    response.redirect("/");
-  }
-});
-
-app.get("/edit_profile", function(request, response) {
-  // Check if user is logged in
-  if (request.session.loggedin) {
-    // Get all the users account details so we can display them on the profile page
-    connection.query(
-      "SELECT * FROM accounts WHERE username = ?",
-      [request.session.username],
-      function(error, results, fields) {
-        // Render profile page
-        response.render("profile-edit.html", { account: results[0] });
-      }
-    );
-  } else {
-    // Redirect to login page
-    response.redirect("/");
-  }
-});
-
-app.post("/edit_profile", function(request, response) {
-  // Check if user is logged in
-  if (request.session.loggedin) {
-    // create variables for easy access
-    var username = request.body.username;
-    var password = request.body.password;
-    var hashed_password = crypto
-      .createHash("sha1")
-      .update(request.body.password)
-      .digest("hex");
-    var email = request.body.email;
-    if (username && password && email) {
-      // update account with new details
-      connection.query(
-        "UPDATE accounts SET username = ?, password = ?, email = ? WHERE username = ?",
-        [username, hashed_password, email, request.session.username],
-        function() {
-          // update session with new username
-          request.session.username = username;
-          // get account details from database
-          connection.query(
-            "SELECT * FROM accounts WHERE username = ?",
-            [username],
-            function(error, results, fields) {
-              // Render edit profile page
-              response.render("profile-edit.html", {
-                account: results[0],
-                msg: "Account is geupdate!"
-              });
-            }
-          );
-        }
-      );
+    /* Including app Routes starts*/
+    includeRoutes(){
+        new routes(this.app).routesConfig();
+        new socketEvents(this.socket).socketConfig();
     }
-  } else {
-    // Redirect to login page
-    response.redirect("/");
-  }
-});
+    /* Including app Routes ends*/  
 
-app.get("/logout", function(request, response) {
-  // Destroy session data
-  request.session.destroy();
-  // Clear remember me cookie
-  response.clearCookie("rememberme");
-  // Redirect to login page
-  response.redirect("/");
-});
+    appExecute(){
 
-io.sockets.on("connection", function(socket) {
-  socket.on("username", function(username) {
-    socket.username = username;
-    io.emit("is_online", "🔵 <i>" + socket.username + " join the chat..</i>");
-  });
+        this.appConfig();
+        this.includeRoutes();
 
-  socket.on("disconnect", function(username) {
-    io.emit("is_online", "🔴 <i>" + socket.username + " left the chat..</i>");
-  });
+        this.http.listen(this.port, this.host, () => {
+            console.log(`Listening on http://${this.host}:${this.port}`);
+        });
+    }
 
-  socket.on("chat_message", function(message) {
-    io.emit(
-      "chat_message",
-      "<strong>" + socket.username + "</strong>: " + message
-    );
-  });
-});
-// Listen on port 3000 (http://localhost:3000/)
-app.listen(8080);
+}
+
+const app = new Server();
+app.appExecute();
