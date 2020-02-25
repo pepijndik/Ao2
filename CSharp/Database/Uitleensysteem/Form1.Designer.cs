@@ -47,7 +47,7 @@
             this.dgrid.Name = "dgrid";
             this.dgrid.RowHeadersWidth = 51;
             this.dgrid.RowTemplate.Height = 24;
-            this.dgrid.Size = new System.Drawing.Size(653, 206);
+            this.dgrid.Size = new System.Drawing.Size(788, 212);
             this.dgrid.TabIndex = 0;
             // 
             // dgrid2
@@ -57,13 +57,13 @@
             this.dgrid2.Name = "dgrid2";
             this.dgrid2.RowHeadersWidth = 51;
             this.dgrid2.RowTemplate.Height = 24;
-            this.dgrid2.Size = new System.Drawing.Size(653, 174);
+            this.dgrid2.Size = new System.Drawing.Size(788, 239);
             this.dgrid2.TabIndex = 1;
             this.dgrid2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgrid2_CellContentClick);
             // 
             // txt_dvds
             // 
-            this.txt_dvds.Location = new System.Drawing.Point(848, 38);
+            this.txt_dvds.Location = new System.Drawing.Point(1000, 61);
             this.txt_dvds.Name = "txt_dvds";
             this.txt_dvds.ReadOnly = true;
             this.txt_dvds.Size = new System.Drawing.Size(100, 22);
@@ -71,7 +71,7 @@
             // 
             // txt_arsort
             // 
-            this.txt_arsort.Location = new System.Drawing.Point(848, 86);
+            this.txt_arsort.Location = new System.Drawing.Point(1000, 109);
             this.txt_arsort.Name = "txt_arsort";
             this.txt_arsort.ReadOnly = true;
             this.txt_arsort.Size = new System.Drawing.Size(100, 22);
@@ -79,7 +79,7 @@
             // 
             // txt_klant
             // 
-            this.txt_klant.Location = new System.Drawing.Point(848, 129);
+            this.txt_klant.Location = new System.Drawing.Point(1000, 152);
             this.txt_klant.Name = "txt_klant";
             this.txt_klant.ReadOnly = true;
             this.txt_klant.Size = new System.Drawing.Size(100, 22);
@@ -88,7 +88,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(671, 41);
+            this.label1.Location = new System.Drawing.Point(823, 64);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 17);
             this.label1.TabIndex = 5;
@@ -97,7 +97,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(671, 91);
+            this.label2.Location = new System.Drawing.Point(823, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(163, 17);
             this.label2.TabIndex = 6;
@@ -106,7 +106,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(671, 134);
+            this.label3.Location = new System.Drawing.Point(823, 157);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 17);
             this.label3.TabIndex = 7;
