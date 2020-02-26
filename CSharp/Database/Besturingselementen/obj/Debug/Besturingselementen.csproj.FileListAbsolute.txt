@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Besturingselementen\bin\Debug\Besturingselementen.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Besturingselementen\bin\Debug\Besturingselementen.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Besturingselementen\bin\Debug\Besturingselementen.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Besturingselementen\obj\Debug\Besturingselementen.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Besturingselementen\obj\Debug\Besturingselementen.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Besturingselementen\obj\Debug\Besturingselementen.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Besturingselementen\obj\Debug\Besturingselementen.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Besturingselementen\obj\Debug\Besturingselementen.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\Database\Besturingselementen\obj\Debug\Besturingselementen.pdb

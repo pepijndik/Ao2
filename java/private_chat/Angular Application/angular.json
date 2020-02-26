@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "angular-chat-app"
+  "defaultProject": "angular-chat-app",
+  "cli": {
+    "analytics": "100a6a6a-3104-449d-b62d-2aea97e040db"
+  }
 }

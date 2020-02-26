@@ -1,35 +1,37 @@
 /*
-* Real time private chatting app using Angular 2, Nodejs, mongodb and Socket.io
-* @author Shashank Tiwari
-*/
+ * Real time private chatting app using Angular 2, Nodejs, mongodb and Socket.io
+ * @author Pdik systems
+ */
 
-'use strict';
+"use strict";
 
-const routeHandler = require('./../handlers/route-handler');
+const routeHandler = require("./../handlers/route-handler");
 
-class Routes{
+class Routes {
+  constructor(app) {
+    this.app = app;
+  }
 
-	constructor(app){
-		this.app = app;
-	}
+  /* creating app Routes starts */
+  appRoutes() {
+    this.app.post("/usernameAvailable", routeHandler.userNameCheckHandler);
 
-	/* creating app Routes starts */
-	appRoutes(){
-		this.app.post('/usernameAvailable', routeHandler.userNameCheckHandler);
+    this.app.post("/register", routeHandler.registerRouteHandler);
 
-		this.app.post('/register', routeHandler.registerRouteHandler);
+    this.app.post("/login", routeHandler.loginRouteHandler);
 
-		this.app.post('/login', routeHandler.loginRouteHandler);
+    this.app.post(
+      "/userSessionCheck",
+      routeHandler.userSessionCheckRouteHandler
+    );
 
-		this.app.post('/userSessionCheck', routeHandler.userSessionCheckRouteHandler);
+    this.app.post("/getMessages", routeHandler.getMessagesRouteHandler);
 
-		this.app.post('/getMessages', routeHandler.getMessagesRouteHandler);
+    this.app.get("*", routeHandler.routeNotFoundHandler);
+  }
 
-		this.app.get('*', routeHandler.routeNotFoundHandler);		
-	}
-
-	routesConfig(){
-		this.appRoutes();
-	}
+  routesConfig() {
+    this.appRoutes();
+  }
 }
 module.exports = Routes;
