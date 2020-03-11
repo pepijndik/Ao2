@@ -19,7 +19,13 @@ namespace Rechthoek
 
         private void btnCalcu_Click(object sender, EventArgs e)
         {
-
+           double lengt;
+            double breedte;
+            lengt = Double.Parse(txtLengte.Text);
+            breedte = double.Parse(txtBreedte.Text);
+            Rechthoek r = new Rechthoek();
+            txtOmtrek.Text = r.omtrek(lengt, breedte).ToString();
+            txtOppervlak.Text = r.oppervalk(lengt, breedte).ToString();
         }
     }
 }
