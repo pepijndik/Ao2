@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\btw\bin\Debug\btw.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\btw\bin\Debug\btw.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\btw\bin\Debug\btw.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\btw\obj\Debug\btw.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\btw\obj\Debug\btw.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\btw\obj\Debug\btw.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\btw\obj\Debug\btw.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\btw\obj\Debug\btw.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\btw\obj\Debug\btw.pdb
