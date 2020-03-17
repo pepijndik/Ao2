@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\dierentuin\obj\Debug\dierentuin.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\dierentuin\obj\Debug\dierentuin.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\dierentuin\obj\Debug\dierentuin.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\dierentuin\obj\Debug\dierentuin.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\dierentuin\bin\Debug\dierentuin.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\dierentuin\bin\Debug\dierentuin.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\dierentuin\bin\Debug\dierentuin.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\dierentuin\obj\Debug\dierentuin.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\dierentuin\obj\Debug\dierentuin.pdb
