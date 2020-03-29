@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\kassakorting\bin\Debug\kassakorting.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\kassakorting\bin\Debug\kassakorting.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\kassakorting\bin\Debug\kassakorting.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\kassakorting\obj\Debug\kassakorting.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\kassakorting\obj\Debug\kassakorting.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\kassakorting\obj\Debug\kassakorting.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\kassakorting\obj\Debug\kassakorting.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\kassakorting\obj\Debug\kassakorting.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\kassakorting\obj\Debug\kassakorting.pdb
