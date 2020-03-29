@@ -32,7 +32,9 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.num_up_down = new System.Windows.Forms.NumericUpDown();
+            this.panel1 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.num_up_down)).BeginInit();
             this.SuspendLayout();
             // 
             // radioButton1
@@ -79,25 +81,35 @@
             this.radioButton4.Text = "Zolder";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // num_up_down
             // 
-            this.textBox2.Location = new System.Drawing.Point(231, 74);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 5;
+            this.num_up_down.Location = new System.Drawing.Point(196, 74);
+            this.num_up_down.Name = "num_up_down";
+            this.num_up_down.Size = new System.Drawing.Size(120, 22);
+            this.num_up_down.TabIndex = 4;
+            this.num_up_down.ValueChanged += new System.EventHandler(this.num_up_down_ValueChanged);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(174, 124);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(595, 295);
+            this.panel1.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.num_up_down);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.num_up_down)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,7 +121,8 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.NumericUpDown num_up_down;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
