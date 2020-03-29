@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\Thermostaat\bin\Debug\Thermostaat.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\Thermostaat\bin\Debug\Thermostaat.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\Thermostaat\bin\Debug\Thermostaat.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\Thermostaat\obj\Debug\Thermostaat.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\Thermostaat\obj\Debug\Thermostaat.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\Thermostaat\obj\Debug\Thermostaat.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\Thermostaat\obj\Debug\Thermostaat.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\Thermostaat\obj\Debug\Thermostaat.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Les 2\Thermostaat\obj\Debug\Thermostaat.pdb
