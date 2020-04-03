@@ -1,0 +1,10 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\bin\Debug\Tafels.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\bin\Debug\Tafels.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\bin\Debug\Tafels.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\obj\Debug\Tafels.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\obj\Debug\Tafels.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\obj\Debug\Tafels.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\obj\Debug\Tafels.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\obj\Debug\Tafels.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\obj\Debug\Tafels.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les5\Tafels\obj\Debug\Tafels.Form2.resources
