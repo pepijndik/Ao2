@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\BMI\bin\Debug\BMI.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\BMI\bin\Debug\BMI.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\BMI\bin\Debug\BMI.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\BMI\obj\Debug\BMI.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\BMI\obj\Debug\BMI.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\BMI\obj\Debug\BMI.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\BMI\obj\Debug\BMI.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\BMI\obj\Debug\BMI.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\BMI\obj\Debug\BMI.pdb

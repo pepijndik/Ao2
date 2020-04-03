@@ -1,0 +1,9 @@
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\Rechthoek\bin\Debug\Rechthoek.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\Rechthoek\bin\Debug\Rechthoek.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\Rechthoek\bin\Debug\Rechthoek.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\Rechthoek\obj\Debug\Rechthoek.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\Rechthoek\obj\Debug\Rechthoek.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\Rechthoek\obj\Debug\Rechthoek.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\Rechthoek\obj\Debug\Rechthoek.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\Rechthoek\obj\Debug\Rechthoek.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\les 4\Rechthoek\obj\Debug\Rechthoek.pdb
