@@ -9,7 +9,13 @@ namespace btw
 
     class btw
     {
-        private double _btw = 1.19;
+        public btw(double btw)
+        {
+            this._btw = btw;
+            
+        }
+
+        private double _btw;
         private double _prijs;
 
         public double bereken(double prijs)

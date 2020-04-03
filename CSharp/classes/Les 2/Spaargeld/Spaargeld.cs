@@ -17,6 +17,15 @@ namespace Spaargeld
         private double _saldo;
         private double _rekeningnummer;
 
+        //Construct
+        public Spaargeld(string naam, double rekeningnummer, double saldo, float x , float y)
+        {
+            this._naam = naam;
+            this._saldo = saldo;
+            this._rekeningnummer = rekeningnummer;
+            X = x;
+            Y = y;
+        }
         //Getters  and setters
         public string Naam
         {

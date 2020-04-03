@@ -13,9 +13,9 @@ namespace Spaargeld
     public partial class Form1 : Form
     {
      
-        Spaargeld sp1 = new Spaargeld();
-        Spaargeld sp2 = new Spaargeld();
-        Spaargeld sp3 = new Spaargeld();
+        Spaargeld sp1 = new Spaargeld("Ramon", 34567811, 0, 30 ,10);
+        Spaargeld sp2 = new Spaargeld("Klaas", 23092001, 150,250,10);
+        Spaargeld sp3 = new Spaargeld("Pepijn", 34567865,10000,30,80);
         Graphics g;
         public Form1()
         {
@@ -26,26 +26,7 @@ namespace Spaargeld
         //Maak alle rekeningen aan ;)
         private void btn_laad_Click(object sender, EventArgs e)
         {
-            Graphics g = panel1.CreateGraphics();
-
-            sp1.Naam = "Ramon";
-            sp2.Naam = "Klaas";
-            sp3.Naam = "Pepijn";
-            sp3.Rekeningnummer = 34567811;
-            sp2.Rekeningnummer = 23092001;
-            sp1.Rekeningnummer = 34567865;
-            sp1.Saldo = 0;
-            sp2.Saldo = 150;
-            sp3.Saldo = 10000;
-       
-            sp1.Y = 10;
-            sp2.Y = 10;
-            sp3.Y = 80;
-            sp1.X = 30;
-            sp2.X = 250;
-            sp3.X = 30;
-
-         
+            Graphics g = panel1.CreateGraphics();     
             //Load Rekeningen
             sp1.load(g);
             sp2.load(g);

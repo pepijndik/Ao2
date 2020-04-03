@@ -25,7 +25,7 @@ namespace btw
         private void button1_Click(object sender, EventArgs e)
         {
 
-            btw btw = new btw();
+            btw btw = new btw(1.19);
             txtVerkoop.Text = btw.bereken(Double.Parse(txtInkoopPrijs.Text)).ToString();
         }
     }
