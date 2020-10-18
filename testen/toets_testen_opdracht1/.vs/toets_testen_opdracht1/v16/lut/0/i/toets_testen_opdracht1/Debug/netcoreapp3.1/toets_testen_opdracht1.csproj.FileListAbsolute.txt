@@ -1,0 +1,10 @@
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\toets_testen_opdracht1\Debug\netcoreapp3.1\toets_testen_opdracht1.exe
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\toets_testen_opdracht1\Debug\netcoreapp3.1\toets_testen_opdracht1.deps.json
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\toets_testen_opdracht1\Debug\netcoreapp3.1\toets_testen_opdracht1.runtimeconfig.json
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\toets_testen_opdracht1\Debug\netcoreapp3.1\toets_testen_opdracht1.runtimeconfig.dev.json
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\toets_testen_opdracht1\Debug\netcoreapp3.1\toets_testen_opdracht1.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\toets_testen_opdracht1\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.LiveUnitTesting.Runtime.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\i\toets_testen_opdracht1\Debug\netcoreapp3.1\toets_testen_opdracht1.AssemblyInfoInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\i\toets_testen_opdracht1\Debug\netcoreapp3.1\toets_testen_opdracht1.AssemblyInfo.cs
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\i\toets_testen_opdracht1\Debug\netcoreapp3.1\toets_testen_opdracht1.csproj.CopyComplete
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\i\toets_testen_opdracht1\Debug\netcoreapp3.1\toets_testen_opdracht1.dll

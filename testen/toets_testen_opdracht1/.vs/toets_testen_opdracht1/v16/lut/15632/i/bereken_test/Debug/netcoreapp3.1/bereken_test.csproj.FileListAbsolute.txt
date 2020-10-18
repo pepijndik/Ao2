@@ -1,0 +1,14 @@
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\bereken_test\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\bereken_test\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\bereken_test\Debug\netcoreapp3.1\nunit.engine.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\bereken_test\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\bereken_test\Debug\netcoreapp3.1\toets_testen_opdracht1.exe
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\bereken_test\Debug\netcoreapp3.1\bereken_test.deps.json
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\bereken_test\Debug\netcoreapp3.1\bereken_test.runtimeconfig.json
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\bereken_test\Debug\netcoreapp3.1\bereken_test.runtimeconfig.dev.json
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\b\bereken_test\Debug\netcoreapp3.1\bereken_test.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\i\bereken_test\Debug\netcoreapp3.1\bereken_test.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\i\bereken_test\Debug\netcoreapp3.1\bereken_test.AssemblyInfoInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\i\bereken_test\Debug\netcoreapp3.1\bereken_test.AssemblyInfo.cs
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\i\bereken_test\Debug\netcoreapp3.1\bereken_test.csproj.CopyComplete
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\.vs\toets_testen_opdracht1\v16\lut\0\i\bereken_test\Debug\netcoreapp3.1\bereken_test.dll

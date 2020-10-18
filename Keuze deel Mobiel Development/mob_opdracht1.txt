@@ -1,4 +1,0 @@
-Web app			 Native-app		Hybride-app
-JavaScript/Node. js.	 Swift			Kotlin
-Web applicatie   	 IOS			Android
-Visual studio code	 Xcode / Mac os		Android studio

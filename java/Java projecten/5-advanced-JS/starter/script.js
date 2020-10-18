@@ -4,33 +4,33 @@
 
 */
 //normal object
-var john = {
-  name: "john",
-  yearOfBirth: 1990,
-  job: "teacher"
-};
+// var john = {
+//   name: "john",
+//   yearOfBirth: 1990,
+//   job: "teacher",
+// };
 
 //function constructor
-var Person = function(name, yearOfBirth, job) {
-  this.name = name;
-  this.yearOfBirth = yearOfBirth;
-  this.job = job;
-};
+// var Person = function (name, yearOfBirth, job) {
+//   this.name = name;
+//   this.yearOfBirth = yearOfBirth;
+//   this.job = job;
+// };
 
 //instaces
 
-Person.prototype.calculageAge = function() {
-  console.log(2020 - this.yearOfBirth);
-};
+// Person.prototype.calculageAge = function () {
+//   console.log(2020 - this.yearOfBirth);
+// };
 //maakt eerst een leeg object aan en daarna word de functie aangeroepen
-var john = new Person("John", 1990, "teacher");
-john.calculageAge();
+// var john = new Person("John", 1990, "teacher");
+// john.calculageAge();
 
-var pepijn = new Person("pepijn", 2001, "developer");
-pepijn.calculageAge();
-var mark = new Person("mark", 2000, "les");
+// var pepijn = new Person("pepijn", 2001, "developer");
+// pepijn.calculageAge();
+// var mark = new Person("mark", 2000, "les");
 
-mark.calculageAge();
+// mark.calculageAge();
 
 /////////////////////////////
 // Lecture: Object.create
@@ -98,3 +98,17 @@ console.log(obj.city);
 /*
 
 */
+
+//Closures
+
+function retirement(retirementAge) {
+  var a = " Years left until retirement.";
+  return function (yearofBirth) {
+    var age = 2020 - yearofBirth;
+    console.log(retirementAge - age + a);
+  };
+}
+
+var retirementNL = retirement(65);
+retirementNL(2001);
+retirement(65)(2001);

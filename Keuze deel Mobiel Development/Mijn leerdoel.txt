@@ -1,8 +1,0 @@
-Mijn leerdoelen zijn,
-
-het leren  programmeren in Cross platform applicatie's
-Door gebruik te maken van de taal Dart gecombineerd met Flutter.
-Ook wil ik graag leren programmeren in Swift.
-
-
-mijn verwachting van dit keuze deel is dat ik een aantal verschillende programmeer talen voor devices ga bekijken. En hier een kleine applicatie van ga maken.

@@ -1,0 +1,11 @@
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\bin\Debug\netcoreapp3.1\toets_testen_opdracht1.exe
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\bin\Debug\netcoreapp3.1\toets_testen_opdracht1.deps.json
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\bin\Debug\netcoreapp3.1\toets_testen_opdracht1.runtimeconfig.json
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\bin\Debug\netcoreapp3.1\toets_testen_opdracht1.runtimeconfig.dev.json
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\bin\Debug\netcoreapp3.1\toets_testen_opdracht1.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\bin\Debug\netcoreapp3.1\toets_testen_opdracht1.pdb
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\obj\Debug\netcoreapp3.1\toets_testen_opdracht1.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\obj\Debug\netcoreapp3.1\toets_testen_opdracht1.AssemblyInfoInputs.cache
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\obj\Debug\netcoreapp3.1\toets_testen_opdracht1.AssemblyInfo.cs
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\obj\Debug\netcoreapp3.1\toets_testen_opdracht1.dll
+C:\Users\pepij\OneDrive\github\ao2\testen\toets_testen_opdracht1\obj\Debug\netcoreapp3.1\toets_testen_opdracht1.pdb

@@ -1,0 +1,36 @@
+\\vmware-host\Shared Folders\Documenten\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.exe.config
+\\vmware-host\Shared Folders\Documenten\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.exe
+\\vmware-host\Shared Folders\Documenten\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.pdb
+\\vmware-host\Shared Folders\Documenten\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Documenten\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.Properties.Resources.resources
+\\vmware-host\Shared Folders\Documenten\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.csproj.GenerateResource.cache
+\\vmware-host\Shared Folders\Documenten\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.exe
+\\vmware-host\Shared Folders\Documenten\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.pdb
+\\vmware-host\Shared Folders\Documenten\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.Form1.resources
+Z:\btr0210 On My Mac\Documents\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets studentopgave\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.exe.config
+Z:\btr0210 On My Mac\Documents\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets studentopgave\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.exe
+Z:\btr0210 On My Mac\Documents\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets studentopgave\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.pdb
+Z:\btr0210 On My Mac\Documents\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.csprojAssemblyReference.cache
+Z:\btr0210 On My Mac\Documents\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.Form1.resources
+Z:\btr0210 On My Mac\Documents\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.Properties.Resources.resources
+Z:\btr0210 On My Mac\Documents\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.csproj.GenerateResource.cache
+Z:\btr0210 On My Mac\Documents\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.exe
+Z:\btr0210 On My Mac\Documents\C# Projectencircus\Huidige schoolprojecten\C#deel4-Online\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\Toets studentopgave\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\Toets studentopgave\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\Toets studentopgave\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\Toets studentopgave\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\pepijn toetws\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.exe.config
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\pepijn toetws\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\pepijn toetws\ToetsCBS\ToetsCBS\bin\Debug\ToetsCBS.pdb
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\pepijn toetws\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.csprojAssemblyReference.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\pepijn toetws\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.Form1.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\pepijn toetws\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.Properties.Resources.resources
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\pepijn toetws\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.csproj.GenerateResource.cache
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\pepijn toetws\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.exe
+C:\Users\pepij\OneDrive\github\ao2\CSharp\classes\Toets pepijn dik\pepijn toetws\ToetsCBS\ToetsCBS\obj\Debug\ToetsCBS.pdb
